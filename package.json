@@ -1,0 +1,24 @@
+{
+  "name": "webpack-react-refresher",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Practicing webpack and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hello%40wenzels.website@github.com/stairjoke/webpack-react-refresher.git"
+  },
+  "author": "Wenzel Massag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stairjoke/webpack-react-refresher/issues"
+  },
+  "homepage": "https://github.com/stairjoke/webpack-react-refresher#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  }
+}
