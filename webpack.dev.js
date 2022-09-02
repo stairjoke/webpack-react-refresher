@@ -9,6 +9,7 @@ module.exports = merge(common, {
 	output: {
 		filename: "main.js",
 		filename: "main.js",
+		assetModuleFilename: "images/[name][ext]",
 		path: path.resolve(__dirname, "dist")
 	}
 })

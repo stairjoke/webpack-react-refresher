@@ -1,5 +1,5 @@
 const path = require("path")
-var HTMLWebpackPlugin = require("html-webpack-plugin")
+const HTMLWebpackPlugin = require("html-webpack-plugin")
 
 module.exports = {
 	entry: "./src/index.js",
@@ -17,6 +17,16 @@ module.exports = {
 					"css-loader", //Turn CSS into JS
 					"sass-loader" //1: Turn SCSS into CSS
 				]
+			},
+			{
+				test: /\.html$/,
+				use: [
+					"html-loader"
+				]
+			},
+			{
+				test: /\.(svg|png|jpg|gif)$/,
+				type: "asset/resource"
 			}
 		]
 	}
