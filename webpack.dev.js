@@ -7,8 +7,7 @@ var HTMLWebpackPlugin = require("html-webpack-plugin")
 module.exports = merge(common, {
 	mode:  "development",
 	output: {
-		filename: "main.js",
-		filename: "main.js",
+		filename: "[name].bundle.js",
 		assetModuleFilename: "images/[name][ext]",
 		path: path.resolve(__dirname, "dist")
 	}
